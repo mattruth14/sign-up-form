@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Norse";
+    src: url(fonts/norse-bold.otf);
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+header {
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    flex: 1 1 35vw;
+    padding-block-start: 25vh;
+}
+
+nav {
+    background-color: rgb(18, 18, 18, 0.5);
+    padding-block: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    max-width: 80px;
+    height: auto;
+}
+
+h1 {
+    font-family: "Norse";
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+main {
+    flex: 1 1 65vw;
+}
