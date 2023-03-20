@@ -3,6 +3,22 @@
     src: url(fonts/norse-bold.otf);
 }
 
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto-MediumItalic";
+    src: url(fonts/Roboto-MediumItalic.ttf);
+    font-weight: 500;
+}
+
+
+
+/* ---  --- */
+
 *,
 ::before,
 ::after {
@@ -44,5 +60,38 @@ h1 {
 }
 
 main {
+    padding: 15vh 120px 15vh 40px;
     flex: 1 1 65vw;
 }
+
+
+
+/* --- message --- */
+
+#message {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 25px;
+    font-size: 1.4rem;
+    padding-block-end: 80px;
+}
+
+#message p {
+    white-space: pre-line;
+    font-family: "Roboto-Medium";
+}
+
+span {
+    font-style: italic;
+}
+
+
+
+/* --- sign-up-form --- */
+
+
+
+
+
+
+/* --- account --- */
