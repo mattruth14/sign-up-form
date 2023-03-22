@@ -149,6 +149,14 @@ input {
     height: 1.7rem;
 }
 
+input:hover {
+    outline: 1px solid gray;
+}
+
+input:focus {
+    outline: 1px solid blue;
+}
+
 label {
     font-family: "Roboto-Medium";
     font-size: 0.7rem;
@@ -168,6 +176,14 @@ button {
     margin-inline-start: 40px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    color: black;
+}
+
 form>p {
     font-family: "Roboto-Regular";
     font-size: 0.83rem;
@@ -180,6 +196,10 @@ form>p a {
     font-size: 0.83rem;
     text-decoration: none;
     color: #596D48;
+}
+
+form>p a:active {
+    color: black;
 }
 
 
