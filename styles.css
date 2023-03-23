@@ -167,12 +167,26 @@ input {
     height: 1.7rem;
 }
 
+input::placeholder {
+    font-style: italic;
+    font-family: "Roboto-Regular";
+    color: rgb(73, 80, 80);
+}
+
 input:hover {
     outline: 1px solid gray;
 }
 
 input:focus {
     outline: 1px solid blue;
+}
+
+input:valid {
+    outline: 1px solid green;
+}
+
+input:invalid:focus {
+    outline: 1px solid red;
 }
 
 label {
