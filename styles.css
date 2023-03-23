@@ -44,6 +44,9 @@ header {
     color: white;
     flex: 1 1 35vw;
     padding-block-start: 25vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
 nav {
@@ -59,10 +62,25 @@ nav {
     height: auto;
 }
 
+header>p {
+    align-self: center;
+    font-family: "Roboto-Regular";
+    font-size: 0.7rem;
+    padding-block: 3px;
+}
+
+header a {
+    color: white;
+}
+
 h1 {
     font-family: "Norse";
     font-size: 5rem;
     font-weight: lighter;
+}
+
+h1>a {
+    text-decoration: none;
 }
 
 main {
@@ -212,10 +230,9 @@ form>p a:active {
     }
 
     header {
-        padding: 0;
-        display: flex;
+        padding-block-start: 4%;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         flex: 1;
     }
 
