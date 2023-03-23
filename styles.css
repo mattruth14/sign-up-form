@@ -207,10 +207,6 @@ form>p a:active {
 /* --- @media queries --- */
 
 @media (max-width: 1180px) {
-    * {
-        overflow-x: hidden;
-    }
-
     body {
         flex-flow: column wrap;
     }
